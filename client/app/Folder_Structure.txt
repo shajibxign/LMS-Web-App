@@ -1,0 +1,129 @@
+app
+├── .DS_Store
+├── about
+│   ├── About.tsx
+│   └── page.tsx
+├── admin
+│   ├── .DS_Store
+│   ├── categories
+│   │   └── page.tsx
+│   ├── courses
+│   │   └── page.tsx
+│   ├── courses-analytics
+│   │   └── page.tsx
+│   ├── create-course
+│   │   └── page.tsx
+│   ├── edit-course
+│   │   └── [id]
+│   │       └── page.tsx
+│   ├── faq
+│   │   └── page.tsx
+│   ├── hero
+│   │   └── page.tsx
+│   ├── invoices
+│   │   └── page.tsx
+│   ├── orders-analytics
+│   │   └── page.tsx
+│   ├── page.tsx
+│   ├── team
+│   │   └── page.tsx
+│   ├── users
+│   │   └── page.tsx
+│   └── users-analytics
+│       └── page.tsx
+├── components
+│   ├── .DS_Store
+│   ├── Admin
+│   │   ├── Analytics
+│   │   │   ├── CourseAnalytics.tsx
+│   │   │   ├── OrdersAnalytics.tsx
+│   │   │   └── UserAnalytics.tsx
+│   │   ├── Course
+│   │   │   ├── AllCourses.tsx
+│   │   │   ├── CourseContent.tsx
+│   │   │   ├── CourseData.tsx
+│   │   │   ├── CourseInformation.tsx
+│   │   │   ├── CourseOptions.tsx
+│   │   │   ├── CoursePreview.tsx
+│   │   │   ├── CreateCourse.tsx
+│   │   │   └── EditCourse.tsx
+│   │   ├── Customization
+│   │   │   ├── EditCategories.tsx
+│   │   │   ├── EditFaq.tsx
+│   │   │   └── EditHero.tsx
+│   │   ├── DashboardHeader.tsx
+│   │   ├── DashboardHero.tsx
+│   │   ├── Order
+│   │   │   └── AllInvoices.tsx
+│   │   ├── sidebar
+│   │   │   ├── AdminSidebar.tsx
+│   │   │   └── Icon.tsx
+│   │   ├── Users
+│   │   │   └── AllUsers.tsx
+│   │   └── Widgets
+│   │       └── DashboardWidgets.tsx
+│   ├── Auth
+│   │   ├── Login.tsx
+│   │   ├── SignUp.tsx
+│   │   └── Verification.tsx
+│   ├── Course
+│   │   ├── CourseCard.tsx
+│   │   ├── CourseContent.tsx
+│   │   ├── CourseContentList.tsx
+│   │   ├── CourseContentMedia.tsx
+│   │   ├── CourseDetails.tsx
+│   │   └── CourseDetailsPage.tsx
+│   ├── FAQ
+│   │   └── FAQ.tsx
+│   ├── Footer.tsx
+│   ├── Header.tsx
+│   ├── Loader
+│   │   ├── Loader.css
+│   │   └── Loader.tsx
+│   ├── Payment
+│   │   └── CheckOutForm.tsx
+│   ├── Profile
+│   │   ├── ChangePassword.tsx
+│   │   ├── Profile.tsx
+│   │   ├── ProfileInfo.tsx
+│   │   └── SideBarProfile.tsx
+│   ├── Review
+│   │   └── ReviewCard.tsx
+│   └── Route
+│       ├── Courses.tsx
+│       ├── Hero.tsx
+│       └── Reviews.tsx
+├── course
+│   └── [id]
+│       └── page.tsx
+├── course-access
+│   └── [id]
+│       └── page.tsx
+├── courses
+│   └── page.tsx
+├── faq
+│   └── page.tsx
+├── favicon.ico
+├── globals.css
+├── hooks
+│   ├── adminProtected.tsx
+│   ├── useProtected.tsx
+│   └── userAuth.tsx
+├── layout.tsx
+├── page.tsx
+├── policy
+│   ├── page.tsx
+│   └── Policy.tsx
+├── profile
+│   └── page.tsx
+├── Provider.tsx
+├── styles
+│   └── style.ts
+└── utils
+    ├── CoursePlayer.tsx
+    ├── CustomModal.tsx
+    ├── Heading.tsx
+    ├── NavItems.tsx
+    ├── Ratings.tsx
+    ├── theme-provider.tsx
+    └── ThemeSwitcher.tsx

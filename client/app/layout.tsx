@@ -38,9 +38,7 @@ export default function RootLayout({
         <Providers>
           <SessionProvider>
             <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-              <Custom>
-                <div>{children}</div>
-              </Custom>
+              <Custom>{children}</Custom>
               <Toaster position="top-center" reverseOrder={false} />
             </ThemeProvider>
           </SessionProvider>
@@ -57,5 +55,8 @@ const Custom: FC<{ children: React.ReactNode }> = ({ children }) => {
     socketId.on("connection", () => {});
   }, []);
 
-  return <div>{isLoading ? <Loader /> : <div>{children} </div>}</div>;
+  // return <div>{isLoading ? <Loader /> : <div>{children} </div>}</div>;
+  return isLoading ? null : children;
 };
+{/* <div>{children}</div> */}
+

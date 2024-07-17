@@ -26,7 +26,8 @@ const CoursePlayer: FC<Props> = ({ videoUrl }) => {
     <div style={{position:"relative",paddingTop:"56.25%",overflow:"hidden"}}>
       {videoData.otp && videoData.playbackInfo !== "" && (
         <iframe
-          src={`https://player.vdocipher.com/v2/?otp=${videoData?.otp}&playbackInfo=${videoData.playbackInfo}&player=Ub9OiZXIOeUXH0Nv`}
+          src={`https://player.vdocipher.com/v2/?otp=${videoData?.otp}&playbackInfo=${videoData.playbackInfo}&player=eeYtKOeS7WUuczEa`}
+          // src="https://player.vdocipher.com/v2/?otp=20160313versASE323OCQMY2EQACnrlF5NbOBUlgVQqCy8560PvBytBC0AKw5Udk&playbackInfo=eyJ2aWRlb0lkIjoiMDViNjVjZGQ2MjBiYzVkZDc4NDE2MzE3NGZmMDk1ZWMifQ=="
           style={{
             position: "absolute",
             top: 0,
@@ -40,6 +41,14 @@ const CoursePlayer: FC<Props> = ({ videoUrl }) => {
         ></iframe>
       )}
     </div>
+    // <div style="padding-top:41%;position:relative;">
+    //   <iframe
+    //     src="https://player.vdocipher.com/v2/?otp=20160313versASE3231eDrAglAdpYrefjXybxfquMsoFp9jmJmyf4FCLJqaX7NOg&playbackInfo=eyJ2aWRlb0lkIjoiMDViNjVjZGQ2MjBiYzVkZDc4NDE2MzE3NGZmMDk1ZWMifQ=="
+    //     style="border:0;max-width:100%;position:absolute;top:0;left:0;height:100%;width:100%;"
+    //     allowFullScreen="true"
+    //     allow="encrypted-media"
+    //   ></iframe>
+    // </div>
   );
 };
 
